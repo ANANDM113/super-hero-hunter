@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+body{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    background-attachment: fixed;
+    text-align: center;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    border-radius: 1rem;
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+    top: 25%;
+    bottom: 0px;
+    overflow-y: scroll;
+}
+li{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 20px 10px;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, #ffefba, #ffffff);
+}
+li img{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 40%;
+}
+li #superHeroTitle{
+    font-size: large;
+    margin-top: 0px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+li #know-me, #delete{
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 0.3rem;
+    font-weight: bolder;
+    background: linear-gradient(170deg, rgba(49, 57, 73, 0.8) 20%, rgba(49, 57, 73, 0.5) 20%, rgba(49, 57, 73, 0.5) 35%, rgba(41, 48, 61, 0.6) 35%, rgba(41, 48, 61, 0.8) 45%, rgba(31, 36, 46, 0.5) 45%, rgba(31, 36, 46, 0.8) 75%, rgba(49, 57, 73, 0.5) 75%), linear-gradient(45deg, rgba(20, 24, 31, 0.8) 0%, rgba(41, 48, 61, 0.8) 50%, rgba(82, 95, 122, 0.8) 50%, rgba(133, 146, 173, 0.8) 100%) #313949;
+}
+::-webkit-scrollbar {
+    display: none;
+}
